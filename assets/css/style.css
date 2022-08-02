@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500;700&family=Poppins:wght@800&display=swap');
+
 body {
-    background-image: url("https://raw.githubusercontent.com/FelipeAdr05/Walkforfreedom/estrutura-felipe/assets/images/CAPA_01.png");
-    background-size: auto;
+    background-image: url("https://raw.githubusercontent.com/FelipeAdr05/Walkforfreedom/estrutura-felipe/assets/images/CAPA_03.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+body h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 41px;
+    letter-spacing: -.03em;
+    line-height: 43px;
+    font-weight: 700;
+    color: #fff;
 }
