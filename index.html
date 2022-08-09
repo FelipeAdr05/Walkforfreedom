@@ -8,6 +8,22 @@
   </head>
 
   <body>
+    <div id="navMenu">
+  
+      <span></span>
+      <span></span>
+      <span></span>
+      
+    </div>
+  <script>
+    
+    const navMenu = document.querySelector("#navMenu");
+
+    navMenu.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+
+  </script>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Sobre</a></li>
