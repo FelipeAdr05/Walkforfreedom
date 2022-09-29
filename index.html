@@ -3,20 +3,32 @@
   <head>
     <title>Blumenau recebe mais uma vez a Walk for Freedom</title>
     <meta charset="utf-8">
-    <meta content="width=1100" name="viewport">
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
-  <body>  
-    <nav>
-      <a href="#">Sempre Notícias</a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
-       </ul>
-    </nav>
+  <body>
+    <div id="navMenu">
+  
+      <span></span>
+      <span></span>
+      <span></span>
+      
+    </div>
+  <script>
+    
+    const navMenu = document.querySelector("#navMenu");
+
+    navMenu.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+
+  </script>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+     </ul>
     <div>
       <h1>
         Blumenau receberá neste sábado, a Caminhada pela Liberdade (Walk for Freedom)
